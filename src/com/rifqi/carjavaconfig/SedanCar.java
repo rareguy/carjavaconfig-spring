@@ -12,6 +12,7 @@ public class SedanCar implements Car {
 	@Qualifier("ponorogoDestinationService")
 	private DestinationService destinationService;
 	
+	// pushing literal value from properties file
 	@Value("${car.brand}")
 	private String brand;
 	
